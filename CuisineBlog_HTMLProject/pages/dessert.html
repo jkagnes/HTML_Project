@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DESSERT</title>
+    <link href="../css/site_page.css" rel="stylesheet" />
+    <link href="../css/site_page2.css" rel="stylesheet" />
+
+    <script  type="text/javascript">
+    function popup(mylink, windowname, w, h) {
+        if (!window.focus) return true;
+        var href;
+        if (typeof (mylink) == 'string')
+            href = mylink;
+        else
+            href = mylink.href;
+			
+		var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+		var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+		width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+		height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+		var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+		var top = ((height / 2) - (h / 2)) + dualScreenTop;
+	
+        window.open(href, windowname, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+        return false;
+    }
+</script>
+</head>
+<body> 
+    <header>
+        <div id="topic">
+        <h1>Dessert</h1>
+        </div>
+        <nav>
+            <ul id="navlist">
+              <li><a href="../index.html" title="Home Page">HOME</a></li>
+              <li><a href="veg.html" title="Vegetarian">VEG RECIPES</a></li>
+              <li><a href="nonveg.html" title="Non Vegetarian">NON-VEG RECIPES</a></li>
+              <li id="current"><a href="#" title="Dessert">DESSERT</a></li>
+              <li><a href="contact.html" title="Contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article id="page4">
+        <div id="columnleft">
+        <section>
+		<p>* click image to get the recipes.</p>
+        <div>
+		    <a href="sub_pages/dessert_1.html" onclick="return popup(this, 'badam', '900', '600')"><img src="../images/badam.jpg" alt="dessert1"/></a>
+		    <h2>Badam Kheer</h2>
+		    <p>Sweet and creamy Indian dessert made from badam (almonds) and milk as base ingredients with ghee, saffron and cardamom powder.</p>		
+        </div>
+
+        <div>
+            <a href="sub_pages/dessert_2.html" onclick="return popup(this, 'jamun', '900', '600')"><img src="../images/jamun.jpg" alt="dessert2"/></a>
+		    <h2>Gulab Jamun</h2>
+		    <p>Most popular dessert consists of dumplings traditionally made of thickened or reduced milk, soaked in rose flavored sugar syrup.</p>		
+	    </div>		
+		
+        <div>
+		    <a href="sub_pages/dessert_3.html" onclick="return popup(this, 'Shahi', '900', '600')"><img src="../images/Shahi.jpg" alt="dessert3"/></a>
+		    <h2>Shahi Tukda</h2>
+		    <p>Deep-fried bread absorbs a milk sauce seasoned with saffron and cardamom, covered by fried cashews, almonds, and pistachios.</p>		
+        </div>
+
+        <div>
+		    <a href="sub_pages/dessert_4.html" onclick="return popup(this, 'halwa', '900', '600')"><img src="../images/halwa.jpg" alt="dessert4"/></a>
+		    <h2>Gajar Ka Halwa</h2>
+		    <p>Gajar Ka Halwa is a sweet dessert pudding made by cooking the grated carrots in milk and sugar and garnished with almonds and pistachios.</p>		
+        </div>
+        </section>
+        </div>
+    </article>
+    <aside>
+    <div id="columnright">
+        <h2>Favorite Links</h2>
+            <ul>
+				<li><a href="http://www.vegrecipesofindia.com/" target="_blank">Veg Recipes of India</a></li>
+				<li><a href="http://www.thasneen.com/cooking/" target="_blank">A Step-by-Step Visual Guide to Effortless Cooking</a></li>
+				<li><a href="http://www.rakskitchen.net/" target="_blank">Collection of Vegetarian Delicacies</a></li>
+				<li><a href="http://www.sliceofmylyfe.com/" target="_blank">Slice of my Lyfe</a></li>
+				<li><a href="http://www.coconutandlime.com/" target="_blank">Coconut & Lime</a></li>
+				<li><a href="http://www.divinetaste.com/" target="_blank">Divine Taste</a></li>
+				<li><a href="http://www.padhuskitchen.com/" target="_blank">Easy to Learn, Simple to Cook</a></li>
+				<li><a href="http://www.vahrehvah.com/" target="_blank">Vahrehvah</a></li>                    
+				<li><a href="http://www.sanjeevkapoor.com/" target="_blank">Chef Sanjeev Kapoor</a></li>
+				<li><a href="http://www.tarladalal.com/" target="_blank">Chef Tarla Dalal</a></li>
+				<li><a href="http://www.drchefdamu.com//" target="_blank">Chef Damu</a></li>
+            </ul>
+    </div>
+    </aside>
+    <footer>
+		<div id="footerLine"></div>
+        <p>Copyright &copy; 2015 Exotic Indian Cuisine</p>
+		<p>Email : s-konchis-agne.jesu@lwtech.edu</p>
+    </footer>
+</body>
+</html>

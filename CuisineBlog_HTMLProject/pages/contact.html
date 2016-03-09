@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CONTACT</title>
+    <link href="../css/site_page.css" rel="stylesheet" />
+	<style>sup{color:red;}</style>
+</head>
+<body>
+    <header>
+        <div id="topic">
+        <h1>Contact</h1>
+        </div>
+        <nav>
+            <ul id="navlist">
+              <li><a href="../index.html" title="Home Page">HOME</a></li>
+              <li><a href="veg.html" title="Vegetarian">VEG RECIPES</a></li>
+              <li><a href="nonveg.html" title="Non Vegetarian">NON-VEG RECIPES</a></li>
+              <li><a href="dessert.html" title="Dessert">DESSERT</a></li>
+              <li id="current"><a href="#" title="Contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contact">
+    <section id="page5">
+	<form id="myForm" method="get" action="contact.php">
+		<fieldset>
+			<legend>Email Me</legend>
+                <p>&nbsp;If you have any questions, just send me a email by filling this form.</p><br/>
+				<label for="firstName">Name <sup>*</sup></label><br/>
+				<input type="text" id="firstName" name="firstName" placeholder="Name" required size="25"/>
+				<br/><br/>
+				<label for="email">E-mail <sup>*</sup></label><br/>
+				<input id="email" name="email" type="email" placeholder="xyz@mail.com" required size="25"/>
+				<br/><br/>
+				<label for="message">Message <sup>*</sup></label>
+				<br/>
+				<textarea id="message" name="message" rows="10" cols="70"></textarea>
+				<br/><br/>
+				<input type="submit" name="submit" id="submit" value="Submit"/> 
+				<input type="reset" id="reset" value="Clear"/>
+		</fieldset>
+	</form>
+    </section>
+    </div>
+    <footer>
+		<div id="footerLine"></div>
+        <p>Copyright &copy; 2015 Exotic Indian Cuisine</p>
+		<p>Email : s-konchis-agne.jesu@lwtech.edu</p>
+    </footer>
+</body>
+</html>

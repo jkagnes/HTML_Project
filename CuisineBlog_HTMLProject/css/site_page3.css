@@ -1,0 +1,101 @@
+﻿@charset "UTF-8";
+
+/* css reset */
+html, body, div, nav, ul, li, h1, aside, section, article, p, h2, footer, img, a{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+body{
+	background:#485828;
+}
+
+#container{
+	width:800px;
+	margin: 0 auto;
+	background:#FEFAAB;
+}
+
+@font-face {
+    font-family:"Berkshire_Swash";
+	src:url("../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf");   
+}
+
+h1{   
+    color:#50700E;
+    font-size:35px;
+	text-align:center;
+    margin:5px;
+	padding:5px;
+    font-family:"Berkshire_Swash";
+}
+
+aside#columnleft{
+    float:left;
+	width:220px;
+    border: 1px solid #DBDB79;
+	margin:15px;
+	padding:10px;   
+	background-color:#FFF;
+}
+
+article#columnright{
+    float:right;
+	width:475px;
+    border: 1px solid #DBDB79;
+	margin:15px;
+	padding:10px;   
+	background-color:#FFF;
+}
+
+@font-face {
+    font-family:"Spirax";
+	src:url("../fonts/Spirax/Spirax-Regular.ttf");
+}
+
+h2{
+    padding:10px;
+    font-size:20px;
+	text-align:center;
+	font-family:"Spirax";
+    color:#910316;
+}
+
+ul {
+    padding:2px;
+    padding-top:8px;
+}
+
+@font-face {
+    font-family:"Kotta_One";
+	src:url("../fonts/Kotta_One/KottaOne-Regular.ttf");
+}
+
+ul li{
+	font-family:"Kotta_One";
+	font-size:15px; 
+	text-align:justify;
+	line-height:25px; 
+	padding:5px;
+}
+
+.clear{
+clear:both;
+}
+
+p{
+    font-size:14px;
+    font-family:"Kotta_One";
+	color:#1E04C8;
+    line-height:30px;
+}
+
+
+
+
+
+
+
+
+

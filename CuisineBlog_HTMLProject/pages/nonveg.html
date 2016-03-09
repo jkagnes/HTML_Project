@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>NON-VEG RECIPES</title>
+    <link href="../css/site_page.css" rel="stylesheet" />
+    <link href="../css/site_page2.css" rel="stylesheet" />
+	<script  type="text/javascript">
+    function popup(mylink, windowname, w, h) {
+        if (!window.focus) return true;
+        var href;
+        if (typeof (mylink) == 'string')
+            href = mylink;
+        else
+            href = mylink.href;
+			
+		var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+		var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+		width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+		height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+		var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+		var top = ((height / 2) - (h / 2)) + dualScreenTop;
+	
+        window.open(href, windowname, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+        return false;
+    }
+</script>
+</head>
+<body>
+    <header>
+        <div id="topic">
+        <h1>Non-Veg Recipes</h1>
+        </div>
+        <nav>
+            <ul id="navlist">
+              <li><a href="../index.html" title="Home Page">HOME</a></li>
+              <li><a href="veg.html" title="Vegetarian">VEG RECIPES</a></li>
+              <li id="current"><a href="#" title="Non Vegetarian">NON-VEG RECIPES</a></li>
+              <li><a href="dessert.html" title="Dessert">DESSERT</a></li>
+              <li><a href="contact.html" title="Contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article id="page3">
+        <div id="columnleft">
+        <section>
+		<p>* click image to get the recipes.</p>
+        <div>
+            <a href="sub_pages/nonveg_1.html" onclick="return popup(this, 'biryani', '900', '600')"><img src="../images/Biryani.jpg" alt="recipe1" /></a>
+		    <h2>Hyderabadi Biryani</h2>
+		    <p>Mutton/Chicken pieces marinated in spices, masala's and yogurt and cooked with rice. Served with a boiled egg and mixed salad.</p>		
+	    </div>
+
+        <div>
+		    <a href="sub_pages/nonveg_2.html" onclick="return popup(this, 'bchicken', '900', '600')"><img src="../images/Butter_Chicken.jpg" alt="recipe2" /></a>
+		    <h2>Butter Chicken</h2>
+		    <p>Chicken marinated in yogurt and spice and cooked with a sauce made of Butter, tomato and various spices that gives the dish its unique flavor.</p>		
+        </div>		
+		
+        <div>
+		    <a href="sub_pages/nonveg_3.html" onclick="return popup(this, 'vindaloo', '900', '600')"><img src="../images/lamb.jpg" alt="recipe3" /></a>
+		    <h2>Vindaloo</h2>
+		    <p>Hot and spicy curry dish served with lamb, and sometimes mixed with cubed potatoes. 
+                Served with rice, chappatis or naan bread.</p>		
+        </div>
+
+        <div>
+		    <a href="sub_pages/nonveg_4.html" onclick="return popup(this, 'tandoori', '900', '600')"><img src="../images/tandoori.jpg" alt="recipe4" /></a>
+		    <h2>Tandoori Chicken</h2>
+		    <p>Marinated in yogurt, lemon juice and aromatic Indian spices and then grilled in a Tandoor or in an oven. This recipe needs to marinated at least 8 hours or overnight.</p>		
+        </div>
+        </section>
+        </div>
+    </article>
+    <aside>
+    <div id="columnright">
+        <h2>Favorite Links</h2>
+            <ul>
+				<li><a href="http://www.vegrecipesofindia.com/" target="_blank">Veg Recipes of India</a></li>
+				<li><a href="http://www.thasneen.com/cooking/" target="_blank">A Step-by-Step Visual Guide to Effortless Cooking</a></li>
+				<li><a href="http://www.rakskitchen.net/" target="_blank">Collection of Vegetarian Delicacies</a></li>
+				<li><a href="http://www.sliceofmylyfe.com/" target="_blank">Slice of my Lyfe</a></li>
+				<li><a href="http://www.coconutandlime.com/" target="_blank">Coconut & Lime</a></li>
+				<li><a href="http://www.divinetaste.com/" target="_blank">Divine Taste</a></li>
+				<li><a href="http://www.padhuskitchen.com/" target="_blank">Easy to Learn, Simple to Cook</a></li>
+				<li><a href="http://www.vahrehvah.com/" target="_blank">Vahrehvah</a></li>                    
+				<li><a href="http://www.sanjeevkapoor.com/" target="_blank">Chef Sanjeev Kapoor</a></li>
+				<li><a href="http://www.tarladalal.com/" target="_blank">Chef Tarla Dalal</a></li>
+				<li><a href="http://www.drchefdamu.com//" target="_blank">Chef Damu</a></li>
+            </ul>
+    </div>
+    </aside>
+    <footer>
+		<div id="footerLine"></div>
+        <p>Copyright &copy; 2015 Exotic Indian Cuisine</p>
+		<p>Email : s-konchis-agne.jesu@lwtech.edu</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿@charset "UTF-8";
+
+#columnleft section div{
+    margin:30px 10px;
+    display:inline-block;
+   	border-top-left-radius:1.5em 1.5em;
+	border-top-right-radius:1.5em 1.5em;
+}
+
+#columnleft section div img{
+    width:200px; 
+    height:200px;
+   	border-top-left-radius:1.5em 1.5em;
+	border-top-right-radius:1.5em 1.5em;
+}
+
+@font-face {
+    font-family:"Spirax";
+	src:url("../fonts/Spirax/Spirax-Regular.ttf");
+}
+
+#columnleft section div h2{
+    text-align:center;
+    font-size:22px;
+    padding:20px 2px 8px 2px;
+    background:#fff;
+	font-family:"Spirax", Garamond; 
+	color:#870371;
+	width:196px;
+}
+
+@font-face {
+    font-family:"Kotta_One";
+	src:url("../fonts/Kotta_One/KottaOne-Regular.ttf");
+}
+
+#columnleft section div p{
+    width:188px;    
+    padding:6px;       
+    font-size:14px;
+    background:#fff;
+    font-family:"Kotta_One";
+	color:#1E04C8;
+    line-height:24px;
+}

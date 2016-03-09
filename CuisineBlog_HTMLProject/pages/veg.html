@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>VEG RECIPES</title>
+    <link href="../css/site_page.css" rel="stylesheet" />
+    <link href="../css/site_page2.css" rel="stylesheet" />
+	<script  type="text/javascript">
+    function popup(mylink, windowname, w, h) {
+        if (!window.focus) return true;
+        var href;
+        if (typeof (mylink) == 'string')
+            href = mylink;
+        else
+            href = mylink.href;
+			
+		var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+		var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+		width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+		height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+		var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+		var top = ((height / 2) - (h / 2)) + dualScreenTop;
+	
+        window.open(href, windowname, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+        return false;
+    }
+</script>
+</head>
+<body>
+    <header>
+        <div id="topic">
+        <h1>Veg Recipes</h1>
+        </div>
+        <nav>
+            <ul id="navlist">
+              <li><a href="../index.html" title="Home Page">HOME</a></li>
+              <li id="current"><a href="#" title="Vegetarian">VEG RECIPES</a></li>
+              <li><a href="nonveg.html" title="Non Vegetarian">NON-VEG RECIPES</a></li>
+              <li><a href="dessert.html" title="Dessert">DESSERT</a></li>
+              <li><a href="contact.html" title="Contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article id="page2">
+        <div id="columnleft">
+        <section>
+		<p>* click image to get the recipes.</p>
+        <div>
+            <a href="sub_pages/veg_1.html" onclick="return popup(this, 'idli', '900', '600')"><img src="../images/idli.jpg" alt="recipe1" /></a>
+		    <h2>Idli</h2>
+		    <p>Made of fermented black lentils and rice, accompanied with sambar and chutney (a vegetable stew made with toor dal and tamarind).</p>		
+	    </div>
+
+        <div>
+		    <a href="sub_pages/veg_2.html" onclick="return popup(this, 'bhatura', '900', '600')"><img src="../images/bature.jpg" alt="recipe2" /></a>
+		    <h2>Bhatura</h2>
+		    <p>Indian bread served with chicken pea masala & yogurt.</p>		
+        </div>
+
+ 	    <div>		
+		    <a href="sub_pages/veg_3.html" onclick="return popup(this, 'malai', '900', '600')"><img src="../images/dosa.jpg" alt="recipe3" /></a>
+		    <h2>Dosa</h2>
+		    <p>Thin, crispy crêpe-like food made from fermented rice, served with sambar and chutneys.</p>		
+	    </div>
+
+        <div>
+		    <a href="sub_pages/veg_4.html" onclick="return popup(this, 'aloo', '900', '600')"><img src="../images/aloo.jpg" alt="recipe4" /></a>
+		    <h2>Aloo Gobi</h2>
+		    <p>Cauliflower and Potatoes cooked in Onion, Tomato and aromatic spices.</p>		
+        </div>
+
+        <div>
+		    <a href="sub_pages/veg_5.html" onclick="return popup(this, 'malai', '900', '600')"><img src="../images/kofta.jpg" alt="recipe5" /></a>
+		    <h2>Malai Kofta</h2>
+		    <p>Fried veggie balls and cream together blend in a creamy Indian saucy curry.</p>	
+        </div>		
+
+        <div>
+		    <a href="sub_pages/veg_6.html" onclick="return popup(this, 'baigan', '900', '600')"><img src="../images/baigan.jpg" alt="recipe6" /></a>
+		    <h2>Bharwan Baigan</h2>
+		    <p>Eggplants are slit and stuffed with spicy onion masala.</p>		
+        </div>
+		
+        <div>
+		    <a href="sub_pages/veg_7.html" onclick="return popup(this, 'malai', '900', '600')"><img src="../images/pbutter.jpg" alt="recipe7" /></a>
+		    <h2>Paneer Butter</h2>
+		    <p>Delicious dish in which succulent cubes of Indian Cottage Cheese are cooked in thick creamy, tangy gravy.</p>		
+        </div>
+
+        <div>
+		    <a href="sub_pages/veg_8.html" onclick="return popup(this, 'dal', '900', '600')"><img src="../images/makhani.jpg" alt="recipe8" /></a>
+		    <h2>Dal Makhani</h2>
+		    <p>Lentils and beans traditionally cooked in a tangy masala with dollops of fresh cream added to give the rich finishing touch. </p>		
+        </div>
+
+        </section>
+        </div>
+    </article>
+    <aside>
+    <div id="columnright">
+        <h2>Favorite Links</h2>
+            <ul>
+				<li><a href="http://www.vegrecipesofindia.com/" target="_blank">Veg Recipes of India</a></li>
+				<li><a href="http://www.thasneen.com/cooking/" target="_blank">A Step-by-Step Visual Guide to Effortless Cooking</a></li>
+				<li><a href="http://www.rakskitchen.net/" target="_blank">Collection of Vegetarian Delicacies</a></li>
+				<li><a href="http://www.sliceofmylyfe.com/" target="_blank">Slice of my Lyfe</a></li>
+				<li><a href="http://www.coconutandlime.com/" target="_blank">Coconut & Lime</a></li>
+				<li><a href="http://www.divinetaste.com/" target="_blank">Divine Taste</a></li>
+				<li><a href="http://www.padhuskitchen.com/" target="_blank">Easy to Learn, Simple to Cook</a></li>
+				<li><a href="http://www.vahrehvah.com/" target="_blank">Vahrehvah</a></li>                    
+				<li><a href="http://www.sanjeevkapoor.com/" target="_blank">Chef Sanjeev Kapoor</a></li>
+				<li><a href="http://www.tarladalal.com/" target="_blank">Chef Tarla Dalal</a></li>
+				<li><a href="http://www.drchefdamu.com//" target="_blank">Chef Damu</a></li>
+            </ul>
+    </div>
+    </aside>
+    <footer>
+		<div id="footerLine"></div>
+        <p>Copyright &copy; 2015 Exotic Indian Cuisine</p>
+		<p>Email : s-konchis-agne.jesu@lwtech.edu</p>
+    </footer>
+</body>
+</html>
